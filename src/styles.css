@@ -1,0 +1,61 @@
+/* Styles for user preferences input form */
+.preferences-form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.preferences-form label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.preferences-form input {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.preferences-form button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.preferences-form button:hover {
+  background-color: #45a049;
+}
+
+/* Styles for vocabulary details page */
+.vocabulary-details {
+  margin: 20px;
+}
+
+.vocabulary-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.vocabulary-details .translation {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.vocabulary-details .pronunciation {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.vocabulary-details .example-sentence {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.vocabulary-details .example-translation {
+  font-size: 16px;
+  color: #555;
+}
